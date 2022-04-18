@@ -1,0 +1,4 @@
+# Codebook
+### This database come from the accelerometer and gyroscope 3-axial raw signals
+### These time domain signals were captured at a constant rate of 50 Hz.
+### Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
