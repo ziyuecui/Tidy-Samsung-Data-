@@ -2,3 +2,48 @@
 ### This database come from the accelerometer and gyroscope 3-axial raw signals
 ### These time domain signals were captured at a constant rate of 50 Hz.
 ### Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
+
+## subject indicates the subject number
+## activity indicates the corresponding activity
+
+## variables:
+ [1] "time-BodyAccelaration-mean-X"                   "time-BodyAccelaration-mean-Y"                  
+ [3] "time-BodyAccelaration-mean-Z"                   "time-BodyAccelaration-std-X"                   
+ [5] "time-BodyAccelaration-std-Y"                    "time-BodyAccelaration-std-Z"                   
+ [7] "time-GravityAccelaration-mean-X"                "time-GravityAccelaration-mean-Y"               
+ [9] "time-GravityAccelaration-mean-Z"                "time-GravityAccelaration-std-X"                
+[11] "time-GravityAccelaration-std-Y"                 "time-GravityAccelaration-std-Z"                
+[13] "time-BodyAccelarationJerk-mean-X"               "time-BodyAccelarationJerk-mean-Y"              
+[15] "time-BodyAccelarationJerk-mean-Z"               "time-BodyAccelarationJerk-std-X"               
+[17] "time-BodyAccelarationJerk-std-Y"                "time-BodyAccelarationJerk-std-Z"               
+[19] "time-BodyGyroscope-mean-X"                      "time-BodyGyroscope-mean-Y"                     
+[21] "time-BodyGyroscope-mean-Z"                      "time-BodyGyroscope-std-X"                      
+[23] "time-BodyGyroscope-std-Y"                       "time-BodyGyroscope-std-Z"                      
+[25] "time-BodyGyroscopeJerk-mean-X"                  "time-BodyGyroscopeJerk-mean-Y"                 
+[27] "time-BodyGyroscopeJerk-mean-Z"                  "time-BodyGyroscopeJerk-std-X"                  
+[29] "time-BodyGyroscopeJerk-std-Y"                   "time-BodyGyroscopeJerk-std-Z"                  
+[31] "time-BodyAccelarationMag-mean"                  "time-BodyAccelarationMag-std"                  
+[33] "time-GravityAccelarationMag-mean"               "time-GravityAccelarationMag-std"               
+[35] "time-BodyAccelarationJerkMag-mean"              "time-BodyAccelarationJerkMag-std"              
+[37] "time-BodyGyroscopeMag-mean"                     "time-BodyGyroscopeMag-std"                     
+[39] "time-BodyGyroscopeJerkMag-mean"                 "time-BodyGyroscopeJerkMag-std"                 
+[41] "frequency-BodyAccelaration-mean-X"              "frequency-BodyAccelaration-mean-Y"             
+[43] "frequency-BodyAccelaration-mean-Z"              "frequency-BodyAccelaration-std-X"              
+[45] "frequency-BodyAccelaration-std-Y"               "frequency-BodyAccelaration-std-Z"              
+[47] "frequency-BodyAccelaration-meanFreq-X"          "frequency-BodyAccelaration-meanFreq-Y"         
+[49] "frequency-BodyAccelaration-meanFreq-Z"          "frequency-BodyAccelarationJerk-mean-X"         
+[51] "frequency-BodyAccelarationJerk-mean-Y"          "frequency-BodyAccelarationJerk-mean-Z"         
+[53] "frequency-BodyAccelarationJerk-std-X"           "frequency-BodyAccelarationJerk-std-Y"          
+[55] "frequency-BodyAccelarationJerk-std-Z"           "frequency-BodyAccelarationJerk-meanFreq-X"     
+[57] "frequency-BodyAccelarationJerk-meanFreq-Y"      "frequency-BodyAccelarationJerk-meanFreq-Z"     
+[59] "frequency-BodyGyroscope-mean-X"                 "frequency-BodyGyroscope-mean-Y"                
+[61] "frequency-BodyGyroscope-mean-Z"                 "frequency-BodyGyroscope-std-X"                 
+[63] "frequency-BodyGyroscope-std-Y"                  "frequency-BodyGyroscope-std-Z"                 
+[65] "frequency-BodyGyroscope-meanFreq-X"             "frequency-BodyGyroscope-meanFreq-Y"            
+[67] "frequency-BodyGyroscope-meanFreq-Z"             "frequency-BodyAccelarationMag-mean"            
+[69] "frequency-BodyAccelarationMag-std"              "frequency-BodyAccelarationMag-meanFreq"        
+[71] "frequency-BodyBodyAccelarationJerkMag-mean"     "frequency-BodyBodyAccelarationJerkMag-std"     
+[73] "frequency-BodyBodyAccelarationJerkMag-meanFreq" "frequency-BodyBodyGyroscopeMag-mean"           
+[75] "frequency-BodyBodyGyroscopeMag-std"             "frequency-BodyBodyGyroscopeMag-meanFreq"       
+[77] "frequency-BodyBodyGyroscopeJerkMag-mean"        "frequency-BodyBodyGyroscopeJerkMag-std"        
+[79] "frequency-BodyBodyGyroscopeJerkMag-meanFreq"  
